@@ -1,0 +1,62 @@
+// Healthcare System Use Case Diagram
+digraph {
+	A [label=Admin shape=box]
+	D [label=Doctor shape=box]
+	P [label="Patient/User" shape=box]
+	"Login/Register" [label="Login/Register" shape=ellipse]
+	A -> "Login/Register"
+	Approve_Doctor_Profile [label="Approve Doctor Profile" shape=ellipse]
+	A -> Approve_Doctor_Profile
+	Add_Medicine [label="Add Medicine" shape=ellipse]
+	A -> Add_Medicine
+	"Block_User/Doctor" [label="Block User/Doctor" shape=ellipse]
+	A -> "Block_User/Doctor"
+	"View_Reports/Tracking" [label="View Reports/Tracking" shape=ellipse]
+	A -> "View_Reports/Tracking"
+	Update_Profile [label="Update Profile" shape=ellipse]
+	A -> Update_Profile
+	Conduct_Online_Interview [label="Conduct Online Interview" shape=ellipse]
+	A -> Conduct_Online_Interview
+	"View_Feedback/Suggestions" [label="View Feedback/Suggestions" shape=ellipse]
+	A -> "View_Feedback/Suggestions"
+	"Login/Register" [label="Login/Register" shape=ellipse]
+	D -> "Login/Register"
+	Schedule_Appointments [label="Schedule Appointments" shape=ellipse]
+	D -> Schedule_Appointments
+	Approve_Appointments [label="Approve Appointments" shape=ellipse]
+	D -> Approve_Appointments
+	Conduct_Online_Consultations [label="Conduct Online Consultations" shape=ellipse]
+	D -> Conduct_Online_Consultations
+	Manage_Prescriptions [label="Manage Prescriptions" shape=ellipse]
+	D -> Manage_Prescriptions
+	View_Reviews [label="View Reviews" shape=ellipse]
+	D -> View_Reviews
+	Add_Medicine [label="Add Medicine" shape=ellipse]
+	D -> Add_Medicine
+	"Leave_Feedback/Suggestions" [label="Leave Feedback/Suggestions" shape=ellipse]
+	D -> "Leave_Feedback/Suggestions"
+	Reserved_Payment [label="Reserved Payment" shape=ellipse]
+	D -> Reserved_Payment
+	"Login/Register" [label="Login/Register" shape=ellipse]
+	P -> "Login/Register"
+	View_Doctors [label="View Doctors" shape=ellipse]
+	P -> View_Doctors
+	Book_Appointments [label="Book Appointments" shape=ellipse]
+	P -> Book_Appointments
+	Attend_Online_Consultations [label="Attend Online Consultations" shape=ellipse]
+	P -> Attend_Online_Consultations
+	Leave_Reviews [label="Leave Reviews" shape=ellipse]
+	P -> Leave_Reviews
+	View_Prescriptions [label="View Prescriptions" shape=ellipse]
+	P -> View_Prescriptions
+	Update_Profile [label="Update Profile" shape=ellipse]
+	P -> Update_Profile
+	Apply_for_Doctor_Profile [label="Apply for Doctor Profile" shape=ellipse]
+	P -> Apply_for_Doctor_Profile
+	Attend_Online_Interview [label="Attend Online Interview" shape=ellipse]
+	P -> Attend_Online_Interview
+	"Leave_Feedback/Suggestions" [label="Leave Feedback/Suggestions" shape=ellipse]
+	P -> "Leave_Feedback/Suggestions"
+	Make_Payment [label="Make Payment" shape=ellipse]
+	P -> Make_Payment
+}

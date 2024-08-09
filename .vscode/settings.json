@@ -1,0 +1,4 @@
+{
+    "java.references.includeAccessors": true,
+    "java.debug.settings.onBuildFailureProceed": true
+}

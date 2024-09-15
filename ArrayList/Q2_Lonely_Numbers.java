@@ -6,7 +6,7 @@ public class Q2_Lonely_Numbers {
     public static ArrayList<Integer> lonelyNum(ArrayList<Integer> nums){
         Collections.sort(nums);
         ArrayList<Integer> list =new ArrayList<>();
-        for(int i=0;i<nums.size();i++){
+        for(int i=0;i<nums.size()-1;i++){
             if(!(nums.contains(nums.get(i)+1) || nums.contains(nums.get(i)-1)) && nums.get(i) != nums.get(i+1)){
                 list.add(nums.get(i));
             }
